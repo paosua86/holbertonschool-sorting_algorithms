@@ -32,7 +32,7 @@ void _swap(int *array, int firts, int second, int size)
 int part(int *array, int first, int second, size_t size)
 {
 	int i = first, j;
-    int pivot = array[second];
+	int pivot = array[second];
 
 	for (j = first; j <= second; j++)
 	{
